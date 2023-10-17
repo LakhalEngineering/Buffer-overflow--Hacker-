@@ -15,7 +15,7 @@ int main(int argc,char **argv){
         exit(1);
     }
 
-    strcpy(buffer, argv[2]);
+    strcpy(buffer, argv[2]); // function to not use
     if(strcmp(argv[1],password) == 0){
         printf("password checks out\n");
         printf("MSG: %s\n",buffer);
